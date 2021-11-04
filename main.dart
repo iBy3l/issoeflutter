@@ -13,9 +13,8 @@ void main() {
         appBar: AppBar(
           // Title
           title: Text(
-            "TreinaWeb",
+            "Sobre Flutter",
             style: TextStyle(color: Colors.black),
-            textAlign: TextAlign.center,
           ),
           backgroundColor: Colors.white,
         ),
@@ -32,3 +31,4 @@ void main() {
         ),
       )));
 }
+

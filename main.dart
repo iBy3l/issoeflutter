@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
       // Title
-      title: "TreinaWeb",
+      title: "Sobre Flutter",
+
       // Home
       home: Scaffold(
         // Color do Fundo
@@ -14,6 +15,7 @@ void main() {
           title: Text(
             "TreinaWeb",
             style: TextStyle(color: Colors.black),
+            textAlign: TextAlign.center,
           ),
           backgroundColor: Colors.white,
         ),
